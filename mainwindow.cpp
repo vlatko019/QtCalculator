@@ -22,6 +22,7 @@ MainWindow::MainWindow(QWidget *parent):
     connect(ui->pushButton_9, SIGNAL(clicked()), this, SLOT(onBtnClicked()));
     connect(ui->pushButton_point, SIGNAL(clicked()), this, SLOT(onBtnClicked()));
     connect(ui->pushButton_plus, SIGNAL(clicked()), this, SLOT(onBtnClicked()));
+    connect(ui->pushButton_minus, SIGNAL(clicked()), this, SLOT(onBtnClicked()));
     connect(ui->pushButton_equals, SIGNAL(clicked()), this, SLOT(onBtnClicked()));
     connect(ui->pushButton_minus, SIGNAL(clicked()), this, SLOT(onBtnClicked()));
     connect(ui->pushButton_multiply, SIGNAL(clicked()), this, SLOT(onBtnClicked()));
